@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    html {
+      font-family: Helvetica, Arial, freesans, sans;
+    }
+    .editarea {
+      border: 1px dotted blue;
+      padding: 1em;
+      margin: 1em;
+    }
+  </style>
+</head>
+<body>
+  <div contenteditable=true class="woodpecker-demo editarea">
+<p>Bacon ipsum dolor sit amet porchetta jerky rump hamburger ball tip turkey venison ham hock meatball jowl pork chop spare ribs meatloaf short ribs frankfurter. Shankle ground round andouille kevin hamburger landjaeger ham hock spare ribs jowl tri-tip short loin venison drumstick. Beef boudin brisket landjaeger flank tail. Ham pig bresaola drumstick hamburger, turducken pork venison spare ribs flank. Turkey spare ribs turducken, shankle pork loin chuck pork ribeye bacon leberkas prosciutto. Bacon swine salami filet mignon ground round pancetta capicola pork brisket ham hock tri-tip doner hamburger meatball. Short ribs chicken flank swine shankle fatback frankfurter turducken.</p>
+<p>T-bone frankfurter cow ground round kevin brisket turducken capicola andouille pancetta spare ribs. Chicken drumstick shank ball tip ribeye frankfurter t-bone leberkas corned beef tail ham bresaola venison spare ribs. Venison tongue turducken beef ribs porchetta bresaola jowl shoulder prosciutto jerky bacon chuck pork chop. Pastrami prosciutto shank, short loin beef brisket landjaeger meatball.</p>
+<p>Shankle capicola boudin rump. Doner t-bone venison pancetta, kielbasa sausage brisket shankle biltong tri-tip. Spare ribs strip steak sausage short ribs ham, meatball flank chuck tri-tip ribeye pig turducken. Pastrami andouille drumstick, pork chop meatloaf flank corned beef turkey brisket shoulder.</p>
+<p>Meatball sirloin chicken beef, filet mignon kevin frankfurter turkey tenderloin flank porchetta ball tip t-bone. Kevin jerky pastrami ground round. Turducken biltong fatback venison t-bone tongue porchetta shankle beef andouille ribeye filet mignon. Sirloin pork turkey shoulder boudin tail. Sausage turkey filet mignon, biltong pork hamburger short ribs andouille. Turkey turducken biltong andouille, drumstick sirloin tongue spare ribs tri-tip porchetta venison strip steak.</p>
+  </div>
+  <!--script src="./vendor/snack-qwery-min.js"></script-->
+  <script src="./vendor/uSelector.js"></script>
+  <script src="./vendor/thumbs.0.6.0.min.js"></script>
+  <script src="./woodpecker.js"></script>
+  <script>
+    var elements = $u(".woodpecker-demo");
+    woodpecker.register(elements);
+  </script>
+</body>
+</html>
